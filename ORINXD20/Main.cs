@@ -72,7 +72,7 @@ namespace ORINXD20
                         //string responseHex = BitConverter.ToString(buffer);
 
                         // Display the response in the label
-                        Respons.Text = $"RCV: {responseHex}";
+                        Respons.Text = $" {responseHex}";
 
                         //MessageBox.Show($"Response: {responseHex}", "Received Data", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
