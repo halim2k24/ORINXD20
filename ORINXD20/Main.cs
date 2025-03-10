@@ -68,9 +68,6 @@ namespace ORINXD20
                         // Convert received bytes to HEX string
                         string responseHex = BitConverter.ToString(buffer);
 
-                        // Convert received bytes to HEX string
-                        //string responseHex = BitConverter.ToString(buffer);
-
                         // Display the response in the label
                         Respons.Text = $" {responseHex}";
 
