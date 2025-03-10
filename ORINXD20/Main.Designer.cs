@@ -37,6 +37,7 @@
             this.SendButton = new System.Windows.Forms.Button();
             this.ReceiveResponsLavel = new System.Windows.Forms.Label();
             this.ReceiveRespons = new System.Windows.Forms.Label();
+            this.Respons = new System.Windows.Forms.Label();
             this.MainMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -121,11 +122,23 @@
             this.ReceiveRespons.Size = new System.Drawing.Size(0, 16);
             this.ReceiveRespons.TabIndex = 5;
             // 
+            // Respons
+            // 
+            this.Respons.AutoSize = true;
+            this.Respons.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Respons.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Respons.Location = new System.Drawing.Point(96, 172);
+            this.Respons.Name = "Respons";
+            this.Respons.Size = new System.Drawing.Size(31, 16);
+            this.Respons.TabIndex = 6;
+            this.Respons.Text = "......";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.Respons);
             this.Controls.Add(this.ReceiveRespons);
             this.Controls.Add(this.ReceiveResponsLavel);
             this.Controls.Add(this.SendButton);
@@ -154,6 +167,7 @@
         private System.Windows.Forms.Button SendButton;
         private System.Windows.Forms.Label ReceiveResponsLavel;
         private System.Windows.Forms.Label ReceiveRespons;
+        private System.Windows.Forms.Label Respons;
     }
 }
 

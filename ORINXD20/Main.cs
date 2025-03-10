@@ -67,7 +67,14 @@ namespace ORINXD20
 
                         // Convert received bytes to HEX string
                         string responseHex = BitConverter.ToString(buffer);
-                        MessageBox.Show($"Response: {responseHex}", "Received Data", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        // Convert received bytes to HEX string
+                        //string responseHex = BitConverter.ToString(buffer);
+
+                        // Display the response in the label
+                        Respons.Text = $"RCV: {responseHex}";
+
+                        //MessageBox.Show($"Response: {responseHex}", "Received Data", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
